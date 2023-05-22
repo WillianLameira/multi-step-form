@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Múltiplos Passos</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <div class="formulario">
+        <h1>Formulário de Múltiplos Passos</h1>
+        <!-- Página 1 -->
+        <div id="pagina1">
+          <label for="name">Informe o Primeiro Nome</label>
+          <input type="text" name="fistName" id="fistName" />
+        </div>
+
+        <!-- Página 2 -->
+        <div id="pagina2" >
+            <label for="name">Informe o Último Nome</label>
+            <input type="text" name="lastName" id="lastName" />
+        </div>
+        
+      </div>
+      <span id="indicador"></span>
+
+      <div class="controles">
+        <button onclick="anterior(event)">Anterior</button>
+        <button onclick="proxima(event)">Próximo</button>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="multi-step-form.js"></script>
+
+  </body>
+</html>
