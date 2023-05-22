@@ -1,4 +1,4 @@
-# Contribuição - Formulário de Múltiplos Passos
+# Formulário de Múltiplos Passos
 
 Este repositório contém um formulário de múltiplos passos implementado em HTML, CSS e JavaScript usando jQuery. O formulário permite aos usuários preencher informações em etapas separadas, avançando e retrocedendo conforme necessário. 
 
